@@ -1,0 +1,17 @@
+/*to target the class we going to add dot "." in the initial
+for exmple*/
+.one{background-color: rgb(164, 255, 255);
+
+}
+
+.second{
+    
+    background-color: rgb(170, 78, 255);
+}
+/*to target the specific ID we going to put # before it for example*/
+#firstdiv{
+    background-color: rgb(83, 20, 255);
+}
+#seconddiv{
+    background-color: rgb(170, 28, 28);
+}

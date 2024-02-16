@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  color: aliceblue;
+  
+    background-image:url(image/tylor.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: black;
+    padding: 30px 40px;
+    
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+h1 {
+    color: solid skyblue; 
+    text-align: center; 
+    margin: 10px 0; 
+}
+
+
+form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid skyblue;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+    backdrop-filter:blur(5px);
+    box-shadow: 0 0 10px black;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px; 
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    
+    height: 50px; 
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid skyblue; 
+    border-radius: 5px;
+    background-color: #333; 
+    color: solid skyblue;
+}
+
+textarea {
+    width: 100%;
+    max-width: 800px; 
+    height: 60px; 
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid skyblue; 
+    border-radius: 5px;
+    background-color: #333; 
+    
+    resize: vertical;
+}
+
+button {
+    background-color: solid skyblue; 
+    color: solid skyblue; 
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+a {
+    color: solid skyblue; 
+    text-decoration: none;
+    text-align: center; 
+    margin-top: 10px;
+}
+
+
+#project-id-placeholder {
+    font-weight: bold;
+    color: solid skyblue; 
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 20px;
+}
